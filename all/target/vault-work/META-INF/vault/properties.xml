@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>EDG Commons - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">commons.all</entry>
+<entry key="created">2021-11-05T01:37:52.685Z</entry>
+<entry key="groupId">com.edg.commons</entry>
+<entry key="version">1.0.0-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.edg.commons</entry>
+<entry key="description">All content package for EDG Commons</entry>
+<entry key="artifactId">commons.all</entry>
+</properties>

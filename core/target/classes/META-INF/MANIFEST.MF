@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+Bundle-Category: EDG Commons
+Bundle-Description: Core bundle for EDG Commons
+Bundle-ManifestVersion: 2
+Bundle-Name: EDG Commons - Core
+Bundle-SymbolicName: commons.core
+Bundle-Version: 1.0.0.SNAPSHOT
+Export-Package: com.endeavour.commons.core.filters;version="1.0";uses:
+ ="javax.servlet",com.endeavour.commons.core.listeners;version="1.0";u
+ ses:="org.osgi.service.event",com.endeavour.commons.core.models;versi
+ on="1.0";uses:="javax.annotation,org.apache.sling.api.resource,org.ap
+ ache.sling.models.annotations,org.apache.sling.models.annotations.inj
+ ectorspecific",com.endeavour.commons.core.schedulers;version="1.0",co
+ m.endeavour.commons.core.servlets;version="1.0";uses:="javax.servlet,
+ org.apache.sling.api,org.apache.sling.api.servlets"
+Import-Package: javax.annotation;version="0.0.0",com.day.cq.wcm.api;ve
+ rsion="[1.29,2)",com.endeavour.commons.core.filters;version="[1.0,2)"
+ ,com.endeavour.commons.core.listeners;version="[1.0,2)",com.endeavour
+ .commons.core.schedulers;version="[1.0,2)",com.endeavour.commons.core
+ .servlets;version="[1.0,2)",javax.servlet;version="[3.1,4)",org.apach
+ e.sling.api;version="[2.3,3)",org.apache.sling.api.request;version="[
+ 2.4,3)",org.apache.sling.api.resource;version="[2.12,3)",org.apache.s
+ ling.api.servlets;version="[2.3,3)",org.apache.sling.models.annotatio
+ ns;version="[1.5,2)",org.apache.sling.models.annotations.injectorspec
+ ific;version="[1.1,2)",org.osgi.service.event;version="[1.4,2)",org.s
+ lf4j;version="[1.7,2)"
+Provide-Capability: osgi.service;objectClass:List<String>="java.lang.R
+ unnable",osgi.service;objectClass:List<String>="javax.servlet.Filter"
+ ;uses:="javax.servlet",osgi.service;objectClass:List<String>="javax.s
+ ervlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List<S
+ tring>="org.osgi.service.event.EventHandler";uses:="org.osgi.service.
+ event"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
+ nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
+ e=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.endeavour.commons.core.filters.Logging
+ Filter.xml,OSGI-INF/com.endeavour.commons.core.listeners.SimpleResour
+ ceListener.xml,OSGI-INF/com.endeavour.commons.core.schedulers.SimpleS
+ cheduledTask.xml,OSGI-INF/com.endeavour.commons.core.servlets.SimpleS
+ ervlet.xml
+Sling-Model-Classes: com.endeavour.commons.core.models.HelloWorldModel
+

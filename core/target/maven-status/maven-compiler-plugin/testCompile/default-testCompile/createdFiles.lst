@@ -1,0 +1,5 @@
+com/endeavour/commons/core/servlets/SimpleServletTest.class
+com/endeavour/commons/core/models/HelloWorldModelTest.class
+com/endeavour/commons/core/schedulers/SimpleScheduledTaskTest.class
+com/endeavour/commons/core/filters/LoggingFilterTest.class
+com/endeavour/commons/core/listeners/SimpleResourceListenerTest.class
