@@ -1,5 +1,0 @@
-/opt/client-aem/edg/edg-commons/core/src/test/java/com/endeavour/commons/core/listeners/SimpleResourceListenerTest.java
-/opt/client-aem/edg/edg-commons/core/src/test/java/com/endeavour/commons/core/schedulers/SimpleScheduledTaskTest.java
-/opt/client-aem/edg/edg-commons/core/src/test/java/com/endeavour/commons/core/models/HelloWorldModelTest.java
-/opt/client-aem/edg/edg-commons/core/src/test/java/com/endeavour/commons/core/servlets/SimpleServletTest.java
-/opt/client-aem/edg/edg-commons/core/src/test/java/com/endeavour/commons/core/filters/LoggingFilterTest.java
